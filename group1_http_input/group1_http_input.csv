@@ -1,0 +1,5 @@
+msg_id,app_protocol,src_app,dst_app,message,timestamp,src_port,dst_port
+1,HTTP,client_browser,web_server,GET /index.html,0.01,50000,80
+2,HTTP,web_server,client_browser,200 OK,0.05,80,50000
+3,HTTP,client_browser,web_server,GET /about.html,0.10,50001,80
+4,HTTP,web_server,client_browser,200 OK,0.15,80,50001
